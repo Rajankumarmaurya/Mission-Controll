@@ -44,7 +44,7 @@ const HomePage = () => {
 
     return (
         <div className="pt-5">
-            <h1 className="text-2xl font-bold mb-5">Add Task</h1>
+            <h1 className="text-2xl font-bold mb-5">Add Mission</h1>
             <form onSubmit={handleSubmit}>
                 <div className="mb-5">
                     <label className="block mb-2 text-sm font-medium text-gray-900 ">

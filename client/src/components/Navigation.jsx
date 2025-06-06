@@ -11,14 +11,18 @@ const Navigation = () => {
         "text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none";
 
     return (
+        <>
+         <h1 className="text-2xl font-bold text-red-600 text-center mb-8">Mission Control Dashboard</h1>
+        
         <div className="pb-5 border-b flex gap-5">
+           
             <NavLink
                 to={RouteIndex}
                 className={({ isActive }) =>
                     isActive ? activeButtonClass : buttonClass
                 }
             >
-                Add Task
+                Add Mission
             </NavLink>
             <NavLink
                 to={RouteTaskList}
@@ -26,9 +30,10 @@ const Navigation = () => {
                     isActive ? activeButtonClass : buttonClass
                 }
             >
-                My Task
+                My Mission
             </NavLink>
         </div>
+        </>
     );
 };
 

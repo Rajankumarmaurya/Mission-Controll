@@ -57,7 +57,7 @@ const ShowTask = () => {
 
     return (
         <div className="pt-5">
-            <h1 className="text-2xl font-bold mb-5">Task Details</h1>
+            <h1 className="text-2xl font-bold mb-5">Mission Details</h1>
             {apiData && apiData.status ?
                 <form onSubmit={handleSubmit}>
                     <div className="mb-5">

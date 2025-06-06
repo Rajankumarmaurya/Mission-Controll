@@ -34,7 +34,7 @@ const TaskListPage = () => {
 
     return (
         <div className="pt-5">
-            <h1 className="text-2xl font-bold mb-5">My Tasks</h1>
+            <h1 className="text-2xl font-bold mb-5">My Mission</h1>
 
             {tasks && tasks.status ?
                 tasks.taskData.length > 0 ? tasks.taskData.map((task) => <Task key={task._id} props={task} onDelete={deleteTask} />) : <>0 Task.</>
